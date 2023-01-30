@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Atividade - Tabela 003 </title>
+</head>
+<header><h1>Atividade - Tabela 003 </h1>
+  <!-- HIERARQUIA DE TABELAS
+        TABLE
+            TABLE ROW
+                TABLE HEAD
+                TABLE DATA
+
+        ANATOMIA DAS TABELAS
+          TABLE
+            CAPTION ... Titulo-Legenda da Tabela
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH        
+          -->
+  <h2>Tabela 003 - MESCLAGEM DE CÉLULAS</h2>
+</header>
+<table>
+    <tr>
+        <td>A1</td>
+        <td colspan="2">B1</td>    <!-- MESCLA COLUNA B e C   -->
+    </tr>
+    <tr>
+        <td rowspan="3">A2</td>   <!-- MESCLA LINHA 2, 3 e 4  -->
+        <td>B2</td>
+        <td rowspan="2">C2</td>    <!-- MESCLA LINHA 2 e 3   -->
+    </tr>
+    <tr>
+                                <!-- REMOVER CÉLULA A3   -->
+        <td>B3</td>
+                                <!-- REMOVER CÉLULA C3  -->
+    </tr>
+                                <!-- REMOVER CÉLULA A4   -->
+                                <!-- REMOVER CÉLULA B4 -->           
+        <td colspan="2">C4</td> <!-- MESCLA COLUNA B e C   -->
+
+    </tr>
+</table>

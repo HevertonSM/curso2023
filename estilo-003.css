@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+div{
+  justify-items: center;
+}
+table{
+  border-collapse: collapse;
+  width: 700px;
+  height: 300;
+  margin-left: 100px;
+}
+thead{
+  border-collapse: collapse;
+  font-weight: bolder;
+  width: 500px;
+}
+th{
+  color: aliceblue;
+  background-color: rgb(118, 136, 136);
+  font-weight: bold;
+  width: 500px;
+  height: 50px;
+}
+td{
+  border: 1px solid black;
+  padding: 0px;
+  width: 500px;
+}
+tr.linha{
+  background-color: rgb(202, 171, 83);
+}
+tfoot{
+  background-color: chartreuse;
+}

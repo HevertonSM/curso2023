@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+div{
+  justify-items: center;
+}
+table{
+  border-collapse: collapse;
+  width: 400px;
+  height: 50px;
+  margin-left: 250px;
+}
+thead{
+  font-weight: bolder;
+  width: 400px;
+  height: 50px;
+  background-color: rgb(135, 230, 27);
+}
+td{
+  border: 1px solid black;
+  padding: 0px;
+  width: 400px;
+  height: 50px;
+}
+tr.linha{
+  background-color: rgb(202, 171, 83);
+}
+tfoot{
+  background-color: chartreuse;
+}

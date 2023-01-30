@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo-003.css">
+    <title>Atividade - Tabela 003 - DESAFIO 1 </title>
+</head>
+<header><h1>Atividade - Tabela 003 - DESAFIO 1 </h1>
+  <!-- HIERARQUIA DE TABELAS
+        TABLE
+            TABLE ROW
+                TABLE HEAD
+                TABLE DATA
+
+        ANATOMIA DAS TABELAS
+          TABLE
+            CAPTION ... Titulo-Legenda da Tabela
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH        
+          -->
+  <h2>DESAFIO 1 - Tabela 003 Completa</h2>
+</header>
+<body>
+    <div>    
+        <table>
+        <caption>Tabela Completa - Relatório de Preferência de Cardápio </caption>
+        <thead>
+            <th scope="col">Sala Hugo Mieli</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Pratos Preferidos</th>
+        </thead>        
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Meninas</th>
+                <td>Maria</td>
+                <td>Lasanha</td>
+                <td>Pizza</td>
+                <td>Feijoada</td>
+            </tr>
+            <tr>
+                
+                <td>Joaquina</td>
+                <td>Estrogonofe</td>
+                <td>Parmigiana</td>
+                <td>Chuleta</td>
+            </tr>
+            <tr>
+                
+                <td>Carlota</td>
+                <td>Pernil</td>
+                <td>Quiche</td>
+                <td>Quiabo</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Meninos</th>
+                <td>João</td>
+                <td>Pizza</td>
+                <td>Espaguete</td>
+                <td>Feijoada</td>
+            </tr>
+            <tr>
+                
+                <td>Marcelo</td>
+                <td>Pizza</td>
+                <td>Espaguete</td>
+                <td>Feijoada</td>
+            </tr>
+            <tr>
+                
+                <td>Pedro</td>
+                <td>Salada</td>
+                <td>Churrasco</td>
+                <td>Pizza</td>
+            </tr>
+        </tbody> 
+        </table>
+    </div>
+</body>
+</html>

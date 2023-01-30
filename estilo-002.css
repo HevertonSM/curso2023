@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+div{
+  justify-items: center;
+}
+table{
+  border-collapse: collapse;
+  width: 400px;
+  height: 400px;
+  margin-left:150px;
+  position: relative; /* Permite Scroll da Tabel Grande */
+}
+caption{ /* Legenda Tabela */
+  background-color: darkgray;
+  padding: 8px;
+}
+thead{
+  font-weight: bolder;
+  text-align: center;
+  padding: 8px;
+  color: aliceblue;
+  text-decoration-color: aliceblue;
+  vertical-align: middle;
+  background-color: rgb(27, 23, 22);
+}
+thead > tr > th {
+  position: sticky; /* Fixa Titulo da Tabela em caso de Scroll */
+  top: -1px;
+  background-color: blue;
+}
+tbody > tr:nth-child(2n) {  /* Efeito Zebrado */
+  background-color: lightgray;
+}
+th{
+  border: 1px solid black;
+  text-decoration-color: rgb(15, 209, 161);
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+td{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+tfoot{
+  background-color: rgb(23, 26, 21);
+  color: azure;
+}
+.numero{ /* Defindo Alinhamento somente da Coluna C para NUMEROS */
+  text-align: right;
+}
